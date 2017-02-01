@@ -10,7 +10,7 @@ Sunucumuzun IP adresi: 54.89.221.74
 
 Sunucuyla ilgili denemeler yapmak için aşağıdaki işlemleri yapınız.
 
-1. Android cihazlar için <a href=https://play.google.com/store/apps/details?id=net.routix.mqttdash>https://play.google.com/store/apps/details?id=net.routix.mqttdash</a> adresinden MQTT Dashboard ugulamazını kurun.
+1. Android cihazlar için <a href=https://play.google.com/store/apps/details?id=net.routix.mqttdash>https://play.google.com/store/apps/details?id=net.routix.mqttdash</a> adresinden MQTT Dashboard ugulamasını kurun.
 
 2. (+) İşaretine dokunarak MQTT  sunucusu ekleyeceğiz. 
 Sadece aşağıdaki alanları doldurun.
