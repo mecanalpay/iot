@@ -1,0 +1,16 @@
+#N canvas 1506 112 496 513 10;
+#X msg 131 69 listen 9000;
+#X obj 131 102 netreceive -u -b;
+#X obj 131 136 oscparse;
+#X obj 131 170 route list;
+#X floatatom 58 263 5 0 0 0 - - -, f 5;
+#X obj 200 217 route rightVolume;
+#X obj 58 218 route leftVolume;
+#X floatatom 200 267 5 0 0 0 - - -, f 5;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 3 0 6 0;
+#X connect 5 0 7 0;
+#X connect 6 0 4 0;

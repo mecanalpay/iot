@@ -1,0 +1,20 @@
+#N canvas 1515 96 931 415 10;
+#X obj 73 79 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 6400 1;
+#X obj 116 291 netsend -u -b;
+#X msg 213 210 connect localhost 9000;
+#X msg 214 248 disconnect;
+#X obj 116 170 list prepend send;
+#X obj 116 211 list trim;
+#X obj 70 125 oscformat xdata;
+#X obj 222 123 oscformat ydata;
+#X obj 225 78 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 2400 1;
+#X connect 0 0 6 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
+#X connect 4 0 5 0;
+#X connect 5 0 1 0;
+#X connect 6 0 4 0;
+#X connect 7 0 4 0;
+#X connect 8 0 7 0;

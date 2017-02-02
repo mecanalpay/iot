@@ -1,0 +1,30 @@
+#N canvas 1067 199 786 428 10;
+#X obj 120 111 netreceive -u -b;
+#X obj 120 142 oscparse;
+#X floatatom 62 288 5 0 0 0 - - -, f 5;
+#X floatatom 201 284 5 0 0 0 - - -, f 5;
+#X obj 201 252 route xdata;
+#X obj 120 223 route list;
+#X obj 100 319 tabwrite array1;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array array1 100 float 1;
+#A 0 414 415 417 417 417 416 415 414 413 410 408 407 409 411 413 415
+417 417 417 416 415 414 413 411 410 407 409 411 413 414 417 417 417
+416 415 414 412 410 409 407 409 411 412 414 415 418 418 418 418 417
+415 413 412 410 409 410 412 413 415 417 418 418 418 417 414 413 411
+410 409 410 411 412 414 416 417 417 417 417 415 413 412 411 409 408
+410 411 413 414 416 417 417 417 416 415 413 412 410 407 409 412;
+#X coords 0 0 99 700 100 100 1 0 0;
+#X restore 309 106 graph;
+#X msg 120 78 listen 9000;
+#X obj 62 256 route ydata;
+#X obj 180 191 print gelen;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 1;
+#X connect 4 0 3 0;
+#X connect 5 0 4 0;
+#X connect 5 0 9 0;
+#X connect 8 0 0 0;
+#X connect 9 0 2 0;

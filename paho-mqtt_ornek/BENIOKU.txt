@@ -1,0 +1,4 @@
+python ile mqtt çalışabilmek için 
+paho-mqtt modülünü kurmalısınız.
+
+sudo pip install paho-mqtt

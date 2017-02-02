@@ -1,0 +1,12 @@
+
+pio search PubSubClient
+
+pio lib install 89
+
+
+pio lib search dht
+pio lib search DHT22
+pio lib install 115
+
+
+
