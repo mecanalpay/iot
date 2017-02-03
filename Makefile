@@ -2,7 +2,7 @@ all:
 	@echo "***** Komutlar *****"
 	@echo "Kullanım: make komut"
 	@echo "Komutlar: push sarj wifi wifiara uyu esp_info"
-	@echo "nodemcu_integer"
+	@echo "nodemcu_integer .."
 	
 
 push:
