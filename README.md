@@ -1,4 +1,4 @@
-# Nesnelerin İnterneti Kursu Ön Bilgi
+# Nesnelerin İnterneti Kursu Ön Hazırlıklar
 
 1. İşletim Sistemi: Kursta nesnelerin interneti konularında bilgi vermek dışında açık kaynak yazılım ve donanıma da önem veriyoruz. Kurslarda yapacağımız uygulamalar Ubuntu veya diğer Debian temelli Linux dağıtımlarına yöneliktir. Ancak kullanılan araçlar açık kaynak kodlu olduğu için MS Windows ve Mac OS X işletim sistemleri için de bulunmaktadır. Diz üstü bilgisayarınıza kurabiliyorsanız Ubuntu 16.04 veya 16.10 kurup geliniz. Diz üstü bilgisayarınıza Ubuntu kurulamıyor veya kurmak istemiyorsanız, gelirken boş bir USB   bellek getirseniz kurs için gerekli araçları içeren USB Disk den çalışan Ubuntu Live sürümünü kurabiliriz.
 Ubuntu yu Windows 10 içerisinde kullanmak isteyenler ise https://msdn.microsoft.com/en-us/commandline/wsl/install_guide adresinde verildiği gibi "Windows Subsystem for Linux" kullanabilirler. (Sadece Windows 10 için)
