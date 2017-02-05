@@ -111,7 +111,7 @@ void loop() { // Sürekli döngü.
   long now = millis();
   if (now - lastMsg > 2000) {
     lastMsg = now;
-    //Eğer gelen data bir önceki gelen data ile aynı olup olmadığını karşılaştır.
+    //Gelen datanın bir önceki gelen data ile aynı olup olmadığını karşılaştır.
   if(receivedData!=receivedLast){     
     analogWrite(ledPin, receivedData);
     receivedLast=receivedData;
