@@ -1,15 +1,15 @@
 #include <ESP8266WiFi.h> //Esp8266 Wifi kütüphanesi
 #include <PubSubClient.h> //MQTT için Publisher ve Subscriber Kütüphanesi
 #include <OneWire.h> // OneWire kütüphanesini ekliyoruz.
+#include "ESP8266_UserCongiguration.h"
 
-#define wifi_ssid "trmn"
-#define wifi_password "adem6060"
-#define mqtt_server "54.89.221.74"
-#define mqtt_user "ab2017"
-#define mqtt_password "abx"
+
+#define mqtt_server "iot.eclipse.org"
+#define mqtt_user "Orkanx"
+#define mqtt_password ""
 #define topic1 ""
-#define topic2 "temperature"
-#define topic3 "speed"
+#define topic2 "ab2017/temperaturex"
+#define topic3 "ab2017/speedx"
 #define readSize 6
 
 
